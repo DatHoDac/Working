@@ -6,11 +6,13 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.james.mime4j.field.datetime.DateTime;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.gargoylesoftware.htmlunit.javascript.host.dom.Document;
 import com.google.common.base.Stopwatch;
 
 
@@ -47,20 +49,27 @@ public class mytestclass {
 //		}
 		  
 //		  7. Applying Explicit wait in webdriver with WebDriver canned conditions.  
-//		   System.out.println(LocalDateTime.now()); 
-		  try {
-			  System.out.println("lan 1: " + LocalDateTime.now()); 
-			  WebDriverWait wait = new WebDriverWait(driver, 30);
-			  wait.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//div[@id='timeLeft']"), "Time left: 7 seconds"));
-			} catch (Exception e) {
-				// TODO: handle exception
-				System.out.println("String Time left: 7 seconds not exist in 30 secs");
-				System.out.println("lan 2: " + LocalDateTime.now());	
-			}
+//		   try {
+//			  System.out.println("lan 1: " + LocalDateTime.now()); 
+//			  WebDriverWait wait = new WebDriverWait(driver, 10);
+//			  wait.until(ExpectedConditions.textToBePresentInElementLocated(By.xpath("//div[@id='timeLeft']"), "Time left: 7 seconds"));
+//			} catch (Exception e) {
+//				// TODO: handle exception
+//				System.out.println("String Time left: 7 seconds not exist in 10 secs");
+//				System.out.println("lan 2: " + LocalDateTime.now());	
+//			}
 					
+//		  10. Get domain name using java script executor
+//		  JavascriptExecutor javascript = (JavascriptExecutor) driver;
+//		  String CurrentURLUsingJS=(String)javascript.executeScript("return document.domain");
+//		  System.out.println("Domain is: " + CurrentURLUsingJS);	
+		  
+		  
 		  
 		  driver.close();
 		 }
+	 
+	 
 	 
 
 }
