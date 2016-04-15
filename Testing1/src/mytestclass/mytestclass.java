@@ -4,12 +4,15 @@ import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
+
+
 import org.apache.james.mime4j.field.datetime.DateTime;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.gargoylesoftware.htmlunit.javascript.host.dom.Document;
@@ -64,12 +67,26 @@ public class mytestclass {
 //		  String CurrentURLUsingJS=(String)javascript.executeScript("return document.domain");
 //		  System.out.println("Domain is: " + CurrentURLUsingJS);	
 		  
+//		  11. Generate alert using webdriver's java script executor interface
 		  
+//		  JavascriptExecutor javascript = (JavascriptExecutor) driver;
+//		  javascript.executeScript("alert('Test Case Execution Is started Now..');");
 		  
-		  driver.close();
+//		  12. Selecting or Deselecting value from drop down in selenium webdriver.
+//		  Select By Visible Text
+		  Select mydrpdwn = new Select(driver.findElement(By.id("Carlist")));
+		  mydrpdwn.selectByVisibleText("Audi");
+		  
+//		  Select By Value
+		  Select listbox = new Select(driver.findElement(By.xpath("//select[@name='FromLB']")));
+		  listbox.selectByValue("Italy");
+		  
+//		  Select By Index
+		  Select listbox2 = new Select(driver.findElement(By.xpath("//select[@name='FromLB']")));
+		  listbox2.selectByIndex(0);
+		  
+//		  driver.close();
 		 }
-	 
-	 
 	 
 
 }
