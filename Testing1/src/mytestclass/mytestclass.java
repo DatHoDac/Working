@@ -74,17 +74,38 @@ public class mytestclass {
 		  
 //		  12. Selecting or Deselecting value from drop down in selenium webdriver.
 //		  Select By Visible Text
-		  Select mydrpdwn = new Select(driver.findElement(By.id("Carlist")));
-		  mydrpdwn.selectByVisibleText("Audi");
+//		  Select mydrpdwn = new Select(driver.findElement(By.id("Carlist")));
+//		  mydrpdwn.selectByVisibleText("Audi");
 		  
 //		  Select By Value
-		  Select listbox = new Select(driver.findElement(By.xpath("//select[@name='FromLB']")));
-		  listbox.selectByValue("Italy");
+//		  Select listbox = new Select(driver.findElement(By.xpath("//select[@name='FromLB']")));
+//		  listbox.selectByValue("Italy");
 		  
 //		  Select By Index
-		  Select listbox2 = new Select(driver.findElement(By.xpath("//select[@name='FromLB']")));
-		  listbox2.selectByIndex(0);
+//		  Select listbox2 = new Select(driver.findElement(By.xpath("//select[@name='FromLB']")));
+//		  listbox2.selectByIndex(0);
 		  
+//		  isMultiple()
+//		  Select listbox = new Select(driver.findElement(By.xpath("//select[@name='FromLB']")));
+//		  boolean value = listbox.isMultiple();
+//		  System.out.println(value);
+		  
+//		  13. Navigate to URL or Back or Forward in Selenium Webdriver
+//		  driver.navigate().to("http://only-testing-blog.blogspot.com/2014/01/textbox.html#sthash.9Q3Ew9bn.dpuf");
+//		  driver.navigate().back();
+//		  String a = driver.getTitle();
+//		  String aa = driver.getCurrentUrl();
+//		  System.out.println(a + " ; " + aa);
+//		  driver.navigate().forward();
+//		  String b = driver.getTitle();
+//		  String bb = driver.getCurrentUrl();
+//		  System.out.println(b + ";" + bb);
+		  
+//		  14. Verify Element Present in Selenium WebDriver
+		  Boolean isExist = driver.findElements(By.xpath("//input[@id='text2']")).size()!= 0;
+		  Boolean isExist2 = driver.findElements(By.xpath("//select[@name='FromLB']")).size()!= 0;
+		  
+		  System.out.println(isExist + " ; " + isExist2);
 //		  driver.close();
 		 }
 	 
