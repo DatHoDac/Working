@@ -4,6 +4,7 @@ package mytestclass;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.util.Date;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 
@@ -16,9 +17,11 @@ import org.openqa.selenium.*;
 //import org.openqa.selenium.TakesScreenshot;
 //import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 //import org.openqa.selenium.support.ui.ExpectedConditions;
 //import org.openqa.selenium.support.ui.Select;
-//import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 //
 //import com.gargoylesoftware.htmlunit.javascript.host.dom.Document;
 //import com.google.common.base.Stopwatch;
@@ -114,12 +117,32 @@ public class mytestclass {
 //		  System.out.println(isExist + " ; " + isExist2);
 //		  
 //		  //15. Capturing entire page screenshot in Selenium WebDriver
-
-		 BasicActions a = new BasicActions(driver);
-		 a.capturescr();
-		
+//		 BasicActions a = new BasicActions(driver);
+//		 a.capturescr();
+//		 BasicActions.SayHello(driver);
+//		 
+//		 
+//		  //16. Generating Mouse Hover Event In WebDriver
+//		 BasicActions hover = new BasicActions(driver);
+//		 hover.hovercontrol();
 		 
-		 BasicActions.SayHello(driver);
-		 driver.close();
+		 //17. Handling Multiple Windows In Selenium WebDriver.
+		 // Get All Window Handles.
+		  
+		  driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		  driver.findElement(By.xpath("//b[contains(.,'Open New Page')]")).submit();;
+		  
+		  Set<String> AllWindowHandles = driver.getWindowHandles();
+		 // Extract parent and child window handle from all window handles.
+		  String window1 = (String) AllWindowHandles.toArray()[0];
+		  System.out.println("window1 is: " + window1);
+		  //String window2 = (String) AllWindowHandles.toArray()[1];
+		  //System.out.println("window2 is: " & window2);
+		 // Use window handle to switch from one window to other window.
+		  //driver.switchTo().window(window2);
+		  
+		  
+		  
+		 //driver.close();
 		 }
 }
