@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [Suite One]">
+  <test name="Test One(failed)">
+    <classes>
+      <class name="TestNGOnePack.ClassTwo">
+        <methods>
+          <include name="load_url"/>
+          <include name="tearDown"/>
+          <include name="assertfalse1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestNGOnePack.ClassTwo -->
+    </classes>
+  </test> <!-- Test One(failed) -->
+</suite> <!-- Failed suite [Suite One] -->
