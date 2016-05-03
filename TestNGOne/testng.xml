@@ -1,7 +1,7 @@
 <suite name="Simple Suite"> 
 	<test name="Simple Skip Test"> 
 		<classes> 
-			<class name = "TestNGOnePack.Sample_Login"/> 
+			<class name = "TestNGOnePack.Form_Submit"/> 
 		</classes>
 	</test> 
 </suite>

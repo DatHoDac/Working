@@ -54,5 +54,6 @@
 	<classpathentry kind="lib" path="/Testing1/WebDriver_Jar_Files/selenium-2.52.0/libs/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="/Testing1/WebDriver_Jar_Files/selenium-2.52.0/libs/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="/Testing1/WebDriver_Jar_Files/selenium-2.52.0/libs/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="JAR_files/jexcelapi/jxl.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

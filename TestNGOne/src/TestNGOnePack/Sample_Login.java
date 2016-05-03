@@ -1,7 +1,7 @@
 package TestNGOnePack;
 
-import java.util.concurrent.TimeUnit;
 
+import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -13,7 +13,9 @@ import org.testng.annotations.Test;
 public class Sample_Login {
 	
 	WebDriver driver = new FirefoxDriver();
-	
+
+	//Using DataProvider Annotation for data driven test 
+
 	@BeforeTest
 	public void setup() throws Exception { 
 		driver.manage().window().maximize(); 
@@ -64,4 +66,7 @@ public class Sample_Login {
 		System.out.println(alrt);
 		
 	}
+	
+	
+
 }

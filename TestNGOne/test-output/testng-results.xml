@@ -1,85 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Simple Suite" duration-ms="28947" started-at="2016-05-03T16:01:27Z" finished-at="2016-05-03T16:01:56Z">
+  <suite name="Simple Suite" duration-ms="11814" started-at="2016-05-03T17:20:52Z" finished-at="2016-05-03T17:21:03Z">
     <groups>
     </groups>
-    <test name="Simple Skip Test" duration-ms="28947" started-at="2016-05-03T16:01:27Z" finished-at="2016-05-03T16:01:56Z">
-      <class name="TestNGOnePack.Sample_Login">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestNGOnePack.Sample_Login@81d9a72]" name="setup" is-config="true" duration-ms="7228" started-at="2016-05-03T23:01:27Z" finished-at="2016-05-03T23:01:34Z">
+    <test name="Simple Skip Test" duration-ms="11814" started-at="2016-05-03T17:20:52Z" finished-at="2016-05-03T17:21:03Z">
+      <class name="TestNGOnePack.Form_Submit">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNGOnePack.Form_Submit@81d9a72]" name="setup" is-config="true" duration-ms="6663" started-at="2016-05-04T00:20:52Z" finished-at="2016-05-04T00:20:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="Login_Test(java.lang.String, java.lang.String)[pri:0, instance:TestNGOnePack.Sample_Login@81d9a72]" name="Login_Test" duration-ms="2195" started-at="2016-05-03T23:01:34Z" data-provider="LoginCredentials" finished-at="2016-05-03T23:01:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[UserId1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pass1]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="LogIn_Test()[pri:0, instance:TestNGOnePack.Form_Submit@81d9a72]" name="LogIn_Test" duration-ms="2598" started-at="2016-05-04T00:20:58Z" finished-at="2016-05-04T00:21:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_Test -->
-        <test-method status="PASS" signature="Login_Test(java.lang.String, java.lang.String)[pri:0, instance:TestNGOnePack.Sample_Login@81d9a72]" name="Login_Test" duration-ms="5321" started-at="2016-05-03T23:01:36Z" data-provider="LoginCredentials" finished-at="2016-05-03T23:01:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[UserId2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pass2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_Test -->
-        <test-method status="PASS" signature="Login_Test(java.lang.String, java.lang.String)[pri:0, instance:TestNGOnePack.Sample_Login@81d9a72]" name="Login_Test" duration-ms="6111" started-at="2016-05-03T23:01:42Z" data-provider="LoginCredentials" finished-at="2016-05-03T23:01:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[UserId3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pass3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_Test -->
-        <test-method status="PASS" signature="Login_Test(java.lang.String, java.lang.String)[pri:0, instance:TestNGOnePack.Sample_Login@81d9a72]" name="Login_Test" duration-ms="5718" started-at="2016-05-03T23:01:48Z" data-provider="LoginCredentials" finished-at="2016-05-03T23:01:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[UserId4]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pass4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNGOnePack.Sample_Login@81d9a72]" name="tearDown" is-config="true" duration-ms="2301" started-at="2016-05-03T23:01:54Z" finished-at="2016-05-03T23:01:56Z">
+        </test-method> <!-- LogIn_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNGOnePack.Form_Submit@81d9a72]" name="tearDown" is-config="true" duration-ms="2511" started-at="2016-05-04T00:21:01Z" finished-at="2016-05-04T00:21:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestNGOnePack.Sample_Login -->
+      </class> <!-- TestNGOnePack.Form_Submit -->
     </test> <!-- Simple Skip Test -->
   </suite> <!-- Simple Suite -->
 </testng-results>
