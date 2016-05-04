@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Simple Suite" duration-ms="11814" started-at="2016-05-03T17:20:52Z" finished-at="2016-05-03T17:21:03Z">
+  <suite name="Simple Suite" duration-ms="55589" started-at="2016-05-04T05:04:59Z" finished-at="2016-05-04T05:05:55Z">
     <groups>
     </groups>
-    <test name="Simple Skip Test" duration-ms="11814" started-at="2016-05-03T17:20:52Z" finished-at="2016-05-03T17:21:03Z">
-      <class name="TestNGOnePack.Form_Submit">
-        <test-method status="PASS" signature="setup()[pri:0, instance:TestNGOnePack.Form_Submit@81d9a72]" name="setup" is-config="true" duration-ms="6663" started-at="2016-05-04T00:20:52Z" finished-at="2016-05-04T00:20:58Z">
+    <test name="Simple Skip Test" duration-ms="55589" started-at="2016-05-04T05:04:59Z" finished-at="2016-05-04T05:05:55Z">
+      <class name="TestNGOnePack.HandlePopup">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TestNGOnePack.HandlePopup@3a8624]" name="setup" is-config="true" duration-ms="39760" started-at="2016-05-04T12:04:59Z" finished-at="2016-05-04T12:05:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LogIn_Test()[pri:0, instance:TestNGOnePack.Form_Submit@81d9a72]" name="LogIn_Test" duration-ms="2598" started-at="2016-05-04T00:20:58Z" finished-at="2016-05-04T00:21:01Z">
+        <test-method status="PASS" signature="Text()[pri:0, instance:TestNGOnePack.HandlePopup@3a8624]" name="Text" duration-ms="10287" started-at="2016-05-04T12:05:39Z" finished-at="2016-05-04T12:05:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LogIn_Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNGOnePack.Form_Submit@81d9a72]" name="tearDown" is-config="true" duration-ms="2511" started-at="2016-05-04T00:21:01Z" finished-at="2016-05-04T00:21:03Z">
+        </test-method> <!-- Text -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNGOnePack.HandlePopup@3a8624]" name="tearDown" is-config="true" duration-ms="5352" started-at="2016-05-04T12:05:49Z" finished-at="2016-05-04T12:05:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- TestNGOnePack.Form_Submit -->
+      </class> <!-- TestNGOnePack.HandlePopup -->
     </test> <!-- Simple Skip Test -->
   </suite> <!-- Simple Suite -->
 </testng-results>
