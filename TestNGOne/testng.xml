@@ -1,7 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Simple Suite"> 
 	<test name="Simple Skip Test"> 
 		<classes> 
-			<class name = "TestNGOnePack.HandlePopup"/>
+			<class name = "TestNGOnePack.ClassTwo"/>
 		</classes>
 	</test> 
 </suite>

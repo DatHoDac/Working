@@ -3,11 +3,14 @@
 <suite name="Failed suite [Simple Suite]">
   <test name="Simple Skip Test(failed)">
     <classes>
-      <class name="TestNGOnePack.Sample_Login">
+      <class name="TestNGOnePack.ClassTwo">
         <methods>
-          <include name="test"/>
+          <include name="load_url"/>
+          <include name="tearDown"/>
+          <include name="assertion_method_1"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- TestNGOnePack.Sample_Login -->
+      </class> <!-- TestNGOnePack.ClassTwo -->
     </classes>
   </test> <!-- Simple Skip Test(failed) -->
 </suite> <!-- Failed suite [Simple Suite] -->

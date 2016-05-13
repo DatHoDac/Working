@@ -8,12 +8,12 @@ import org.testng.annotations.Test;
 
 public class ClassTwo extends TestNGOnePack.BaseClassOne {
 	
-//	String ActualText;
+	String ActualText;
 	
-//	@BeforeClass
-//	public void load_url(){
-//		driver.navigate().to("http://only-testing-blog.blogspot.in/2014/01/textbox.html");
-//	}
+	@BeforeClass
+	public void load_url(){
+		driver.navigate().to("http://only-testing-blog.blogspot.in/2014/01/textbox.html");
+	}
 	
 //	//@Test annotation describes this method as a test method
 //	@Test
@@ -26,44 +26,44 @@ public class ClassTwo extends TestNGOnePack.BaseClassOne {
 //		System.out.print("\n'"+Workdir+" -> "+Classpackname+" -> testmethodone' has been executed successfully");
 //	}
 	
-//	//Method Example for Assertion
-//	@Test
-//	public void assertion_method_1(){
-//		ActualText = driver.findElement(By.xpath("//h2/span")).getText();
-//		Assert.assertNotEquals(ActualText, "Tuesday, 28 January 2014", "Expected and actual match in assertion_method_1");
-//		System.out.println("\n assertion_method_1() -> Part executed");
-//	}
-//	//Method Example for Assertion
-//	@Test
-//	public void assertion_method_2(){
-//		Assert.assertNotEquals(ActualText, "Tuesday, 29 January 2014", "Expected and actual match in assertion_method_2");
-//		System.out.println("\n assertion_method_2() -> Part executed");
-//	}
-//	
-//	//Method Example for Assertion
-//	@Test
-//	public void verification_method(){
-//		
-//		String time = driver.findElement(By.xpath("//div[@id='timeLeft']")).getText();
-//		
-//		if(time == "Tuesday, 28 January 2014")
-//		{
-//			System.out.println("\n Text Match");
-//		}
-//		else
-//		{
-//			System.out.println("\n Text doesnt match");
-//		}
-//		
-//	}
-	
-	WebElement chk1, chk2;
-	@BeforeClass
-	public void load_url(){
-		driver.get("http://only-testing-blog.blogspot.in/2014/02/attributes.html"); 
-		chk1 = driver.findElement(By.xpath("//input[@name='option1']")); 
-		chk2 = driver.findElement(By.xpath("//input[@name='option2']"));
+	//Method Example for Assertion
+	@Test
+	public void assertion_method_1(){
+		ActualText = driver.findElement(By.xpath("//h2/span")).getText();
+		Assert.assertNotEquals(ActualText, "Tuesday, 28 January 2014", "Expected and actual match in assertion_method_1");
+		System.out.println("\n assertion_method_1() -> Part executed");
 	}
+	//Method Example for Assertion
+	@Test
+	public void assertion_method_2(){
+		Assert.assertNotEquals(ActualText, "Tuesday, 29 January 2014", "Expected and actual match in assertion_method_2");
+		System.out.println("\n assertion_method_2() -> Part executed");
+	}
+	
+	//Method Example for Assertion
+	@Test
+	public void verification_method(){
+		
+		String time = driver.findElement(By.xpath("//div[@id='timeLeft']")).getText();
+		
+		if(time == "Tuesday, 28 January 2014")
+		{
+			System.out.println("\n Text Match");
+		}
+		else
+		{
+			System.out.println("\n Text doesnt match");
+		}
+		
+	}
+	
+//	WebElement chk1, chk2;
+//	@BeforeClass
+//	public void load_url(){
+//		driver.get("http://only-testing-blog.blogspot.in/2014/02/attributes.html"); 
+//		chk1 = driver.findElement(By.xpath("//input[@name='option1']")); 
+//		chk2 = driver.findElement(By.xpath("//input[@name='option2']"));
+//	}
 	
 //	//Assertion Method - will pass 
 //	@Test 
@@ -81,18 +81,18 @@ public class ClassTwo extends TestNGOnePack.BaseClassOne {
 //		System.out.print("\n asserttrue2 - > Executed - means assertion is pass"); 
 //	}
 	
-	//Assertion Method - will Fail 
-	@Test 
-	public void assertfalse1() { 
-		System.out.print("\n"+chk1.isSelected()); 
-		Assert.assertFalse(chk1.isSelected()); 
-	} 
-	//Assertion Method - will Pass 
-	@Test 
-	public void assertfalse2() { 
-		System.out.print("\n"+chk1.isSelected()); 
-		Assert.assertFalse(chk2.isSelected()); 
-	}
+//	//Assertion Method - will Fail 
+//	@Test 
+//	public void assertfalse1() { 
+//		System.out.print("\n"+chk1.isSelected()); 
+//		Assert.assertFalse(chk1.isSelected()); 
+//	} 
+//	//Assertion Method - will Pass 
+//	@Test 
+//	public void assertfalse2() { 
+//		System.out.print("\n"+chk1.isSelected()); 
+//		Assert.assertFalse(chk2.isSelected()); 
+//	}
 	
 	
 	
