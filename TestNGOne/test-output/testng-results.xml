@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32271" started-at="2016-05-17T12:50:32Z" finished-at="2016-05-17T12:51:05Z">
+  <suite name="Default suite" duration-ms="51829" started-at="2016-05-18T10:27:48Z" finished-at="2016-05-18T10:28:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32271" started-at="2016-05-17T12:50:32Z" finished-at="2016-05-17T12:51:05Z">
-      <class name="TestNGOnePack.GetPageTitle">
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:TestNGOnePack.GetPageTitle@1d03963]" name="beforetest" is-config="true" duration-ms="22577" started-at="2016-05-17T19:50:32Z" finished-at="2016-05-17T19:50:55Z">
+    <test name="Default test" duration-ms="51829" started-at="2016-05-18T10:27:48Z" finished-at="2016-05-18T10:28:40Z">
+      <class name="TestNGOnePack.PageLoad">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNGOnePack.PageLoad@d80b78]" name="beforeTest" is-config="true" duration-ms="49287" started-at="2016-05-18T17:27:48Z" finished-at="2016-05-18T17:28:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:TestNGOnePack.GetPageTitle@1d03963]" name="test" duration-ms="5501" started-at="2016-05-17T19:50:55Z" finished-at="2016-05-17T19:51:01Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:TestNGOnePack.PageLoad@d80b78]" name="test" duration-ms="2516" started-at="2016-05-18T17:28:37Z" finished-at="2016-05-18T17:28:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:TestNGOnePack.GetPageTitle@1d03963]" name="aftertest" is-config="true" duration-ms="4132" started-at="2016-05-17T19:51:01Z" finished-at="2016-05-17T19:51:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftertest -->
-      </class> <!-- TestNGOnePack.GetPageTitle -->
+      </class> <!-- TestNGOnePack.PageLoad -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
