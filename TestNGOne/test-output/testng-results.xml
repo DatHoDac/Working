@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51829" started-at="2016-05-18T10:27:48Z" finished-at="2016-05-18T10:28:40Z">
+  <suite name="Default suite" duration-ms="18609" started-at="2016-05-31T04:28:05Z" finished-at="2016-05-31T04:28:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51829" started-at="2016-05-18T10:27:48Z" finished-at="2016-05-18T10:28:40Z">
-      <class name="TestNGOnePack.PageLoad">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNGOnePack.PageLoad@d80b78]" name="beforeTest" is-config="true" duration-ms="49287" started-at="2016-05-18T17:27:48Z" finished-at="2016-05-18T17:28:37Z">
+    <test name="Default test" duration-ms="18609" started-at="2016-05-31T04:28:05Z" finished-at="2016-05-31T04:28:24Z">
+      <class name="TestNGOnePack.SelectListItem">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNGOnePack.SelectListItem@1760b47]" name="beforeTest" is-config="true" duration-ms="8343" started-at="2016-05-31T11:28:05Z" finished-at="2016-05-31T11:28:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:TestNGOnePack.PageLoad@d80b78]" name="test" duration-ms="2516" started-at="2016-05-18T17:28:37Z" finished-at="2016-05-18T17:28:40Z">
+        <test-method status="PASS" signature="navigatefunc()[pri:0, instance:TestNGOnePack.SelectListItem@1760b47]" name="navigatefunc" duration-ms="10214" started-at="2016-05-31T11:28:14Z" finished-at="2016-05-31T11:28:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- TestNGOnePack.PageLoad -->
+        </test-method> <!-- navigatefunc -->
+      </class> <!-- TestNGOnePack.SelectListItem -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
