@@ -1,9 +1,14 @@
 package TestNGOnePack;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -60,22 +65,31 @@ public class SelectListItem {
 	
 	
 	@Test
-	public void navigatefunc()
+	public void navigatefunc() throws IOException
 	{
-		String title1= driver.getTitle();
-		System.out.println("load page at 1st time, title: " + title1);
+//		String title1= driver.getTitle();
+//		System.out.println("load page at 1st time, title: " + title1);
+//		
+//		driver.navigate().to("http://only-testing-blog.blogspot.in/2013/09/test.html");
+//		String title2= driver.getTitle();
+//		System.out.println("load page at 2nd time, title: " + title2);
+//		
+//		driver.navigate().back();
+//		String title3= driver.getTitle();
+//		System.out.println("load 1st page, title: " + title3);
+//		
+//		driver.navigate().forward();
+//		String title4= driver.getTitle();
+//		System.out.println("load 2nd page, title: " + title4);
 		
-		driver.navigate().to("http://only-testing-blog.blogspot.in/2013/09/test.html");
-		String title2= driver.getTitle();
-		System.out.println("load page at 2nd time, title: " + title2);
+		capturescreenshoot();
 		
-		driver.navigate().back();
-		String title3= driver.getTitle();
-		System.out.println("load 1st page, title: " + title3);
-		
-		driver.navigate().forward();
-		String title4= driver.getTitle();
-		System.out.println("load 2nd page, title: " + title4);
+	}
+	
+	public void capturescreenshoot() throws IOException 
+	{
+		File scrshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(scrshot, new File("D:\\scrshot.jpg"));
 	}
 	
 	
