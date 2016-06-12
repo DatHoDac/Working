@@ -1,15 +1,19 @@
 package TestNGOnePack;
 
+import java.io.File;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 import atu.testrecorder.ATUTestRecorder;
 
 public class RecordTest {
@@ -18,15 +22,16 @@ public class RecordTest {
 	WebDriver driver;
 	ATUTestRecorder recorder;
 	
-	
-	
+
 	@BeforeTest
 	public void setup() throws Exception {
-	DateFormat dateformat = new SimpleDateFormat("yy-HH-dd HH-mm-ss"); 
+	DateFormat dateformat = new SimpleDateFormat("yy-MM-dd HH-mm-ss"); 
 	Date date = new Date();
 	//Created object of ATUTestRecorder
 	//Provide path to store videos and file name format.
-	recorder = new ATUTestRecorder("D:\\WORKING\\TestNGOne\\Recorded_video", "Testvideo-"+dateformat.format(date), false);
+	String recorded_video_folder = "C:\\Recorded_video";
+	new File(recorded_video_folder).mkdir();
+	recorder = new ATUTestRecorder("C:\\Recorded_video", "Testvideo-"+dateformat.format(date), false);
 	//To start video recording.
 	recorder.start();
 	driver = new FirefoxDriver();
@@ -54,5 +59,8 @@ public class RecordTest {
 	  
 	  driver.manage().window().setSize(new Dimension(1024, 400));
 	 
+
+	  
+	  
   }
 }
