@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10403" started-at="2016-06-12T15:37:03Z" finished-at="2016-06-12T15:37:14Z">
+  <suite name="Default suite" duration-ms="61546" started-at="2016-06-14T03:28:41Z" finished-at="2016-06-14T03:29:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10403" started-at="2016-06-12T15:37:03Z" finished-at="2016-06-12T15:37:14Z">
-      <class name="TestNGOnePack.HovermouseEvent">
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:TestNGOnePack.HovermouseEvent@1169afe1]" name="beforetest" is-config="true" duration-ms="5804" started-at="2016-06-12T22:37:03Z" finished-at="2016-06-12T22:37:09Z">
+    <test name="Default test" duration-ms="61546" started-at="2016-06-14T03:28:41Z" finished-at="2016-06-14T03:29:42Z">
+      <class name="TestNGOnePack.HandleWindows">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:TestNGOnePack.HandleWindows@ece7f4]" name="beforetest" is-config="true" duration-ms="17694" started-at="2016-06-14T10:28:41Z" finished-at="2016-06-14T10:28:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:TestNGOnePack.HovermouseEvent@1169afe1]" name="test" duration-ms="2961" started-at="2016-06-12T22:37:09Z" finished-at="2016-06-12T22:37:12Z">
+        <test-method status="PASS" signature="Test()[pri:0, instance:TestNGOnePack.HandleWindows@ece7f4]" name="Test" duration-ms="39263" started-at="2016-06-14T10:28:59Z" finished-at="2016-06-14T10:29:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:TestNGOnePack.HovermouseEvent@1169afe1]" name="aftertest" is-config="true" duration-ms="1594" started-at="2016-06-12T22:37:12Z" finished-at="2016-06-12T22:37:14Z">
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:TestNGOnePack.HandleWindows@ece7f4]" name="aftertest" is-config="true" duration-ms="4538" started-at="2016-06-14T10:29:38Z" finished-at="2016-06-14T10:29:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
-      </class> <!-- TestNGOnePack.HovermouseEvent -->
+      </class> <!-- TestNGOnePack.HandleWindows -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
