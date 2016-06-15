@@ -31,14 +31,14 @@ public class DiferenceofFindElement_and_FindElements {
   	{  
 	  
 		  WebElement option = driver.findElement(By.xpath("//option[@id='country5']"));
-		  System.out.print(option.getAttribute("id")+" - "+option.getText());
-//		  List<WebElement> options= driver.findElements(By.xpath("//option"));
-//		  System.out.println(options.size());
-//		  for(int i=0;i<=options.size();i++)
-//		  {
-//		   String str = options.get(i).getAttribute("id")+" - "+options.get(i).getText();
-//		   System.out.println(str);
-//		   
-//		  }
+		  System.out.print(option.getAttribute("id")+" - "+option.getText()  + "\n");
+		  List<WebElement> options= driver.findElements(By.xpath("//option"));
+		  System.out.println(options.size());
+		  for(int i=0;i<options.size();i++)
+		  {
+		   String str = options.get(i).getAttribute("id")+" - "+options.get(i).getText();
+		   System.out.println(str);
+		   
+		  }
   	}
 }

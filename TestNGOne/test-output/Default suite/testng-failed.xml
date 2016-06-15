@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestNGOnePack.RecordTest">
+      <class name="TestNGOnePack.TestLog4J">
         <methods>
-          <include name="setup"/>
-          <include name="getscrollstatus"/>
+          <include name="test"/>
+          <include name="beforetest"/>
         </methods>
-      </class> <!-- TestNGOnePack.RecordTest -->
+      </class> <!-- TestNGOnePack.TestLog4J -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

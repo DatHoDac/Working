@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61546" started-at="2016-06-14T03:28:41Z" finished-at="2016-06-14T03:29:42Z">
+  <suite name="Default suite" duration-ms="26017" started-at="2016-06-15T11:56:46Z" finished-at="2016-06-15T11:57:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61546" started-at="2016-06-14T03:28:41Z" finished-at="2016-06-14T03:29:42Z">
-      <class name="TestNGOnePack.HandleWindows">
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:TestNGOnePack.HandleWindows@ece7f4]" name="beforetest" is-config="true" duration-ms="17694" started-at="2016-06-14T10:28:41Z" finished-at="2016-06-14T10:28:59Z">
+    <test name="Default test" duration-ms="26017" started-at="2016-06-15T11:56:46Z" finished-at="2016-06-15T11:57:12Z">
+      <class name="TestNGOnePack.TestLog4J">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:TestNGOnePack.TestLog4J@b91815]" name="beforetest" is-config="true" duration-ms="11876" started-at="2016-06-15T18:56:46Z" finished-at="2016-06-15T18:56:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="Test()[pri:0, instance:TestNGOnePack.HandleWindows@ece7f4]" name="Test" duration-ms="39263" started-at="2016-06-14T10:28:59Z" finished-at="2016-06-14T10:29:38Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:TestNGOnePack.TestLog4J@b91815]" name="test" duration-ms="10252" started-at="2016-06-15T18:56:58Z" finished-at="2016-06-15T18:57:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:TestNGOnePack.HandleWindows@ece7f4]" name="aftertest" is-config="true" duration-ms="4538" started-at="2016-06-14T10:29:38Z" finished-at="2016-06-14T10:29:42Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:TestNGOnePack.TestLog4J@b91815]" name="aftertest" is-config="true" duration-ms="3810" started-at="2016-06-15T18:57:08Z" finished-at="2016-06-15T18:57:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
-      </class> <!-- TestNGOnePack.HandleWindows -->
+      </class> <!-- TestNGOnePack.TestLog4J -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
