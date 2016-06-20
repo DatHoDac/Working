@@ -10,7 +10,7 @@ public class Log4jTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		BasicConfigurator.configure();
-		log.info("Type text into my first name textboxahii");
+		log.info("Log4JTest");
 	}
 
 }

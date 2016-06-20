@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="TestNGOnePack.TestLog4J">
+      <class name="ObjectRepo.CalcTest">
         <methods>
-          <include name="test"/>
-          <include name="beforetest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="Calc_operations"/>
         </methods>
-      </class> <!-- TestNGOnePack.TestLog4J -->
+      </class> <!-- ObjectRepo.CalcTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

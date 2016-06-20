@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26017" started-at="2016-06-15T11:56:46Z" finished-at="2016-06-15T11:57:12Z">
+  <suite name="Default suite" duration-ms="12832" started-at="2016-06-20T11:45:23Z" finished-at="2016-06-20T11:45:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26017" started-at="2016-06-15T11:56:46Z" finished-at="2016-06-15T11:57:12Z">
-      <class name="TestNGOnePack.TestLog4J">
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:TestNGOnePack.TestLog4J@b91815]" name="beforetest" is-config="true" duration-ms="11876" started-at="2016-06-15T18:56:46Z" finished-at="2016-06-15T18:56:58Z">
+    <test name="Default test" duration-ms="12832" started-at="2016-06-20T11:45:23Z" finished-at="2016-06-20T11:45:36Z">
+      <class name="ObjectRepo.CalcTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ObjectRepo.CalcTest@b91815]" name="beforeTest" is-config="true" duration-ms="8204" started-at="2016-06-20T18:45:23Z" finished-at="2016-06-20T18:45:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:TestNGOnePack.TestLog4J@b91815]" name="test" duration-ms="10252" started-at="2016-06-15T18:56:58Z" finished-at="2016-06-15T18:57:08Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Calc_operations()[pri:0, instance:ObjectRepo.CalcTest@b91815]" name="Calc_operations" duration-ms="2548" started-at="2016-06-20T18:45:31Z" finished-at="2016-06-20T18:45:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:TestNGOnePack.TestLog4J@b91815]" name="aftertest" is-config="true" duration-ms="3810" started-at="2016-06-15T18:57:08Z" finished-at="2016-06-15T18:57:12Z">
+        </test-method> <!-- Calc_operations -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ObjectRepo.CalcTest@b91815]" name="afterTest" is-config="true" duration-ms="1923" started-at="2016-06-20T18:45:34Z" finished-at="2016-06-20T18:45:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aftertest -->
-      </class> <!-- TestNGOnePack.TestLog4J -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- ObjectRepo.CalcTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
